@@ -24,7 +24,7 @@ and your phone.
 
 The easiest route is Keeploop > Settings > Connect > Claude > Install, which opens Claude's
 Add plugin dialog with this plugin filled in. Or in Claude: Customize > Plugins > Add, then
-add the marketplace `keeploopapp/claude-commands` and the plugin `keeploop`.
+add the marketplace `keeploopapp/keeploop` and the plugin `keeploop`.
 
 Claude Code users get the same commands, plus the local tools, from the
 [Claude Code plugin](https://github.com/keeploopapp/claude-plugin) instead.

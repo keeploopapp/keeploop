@@ -6,19 +6,19 @@
   },
   "metadata": {
     "description": "The /keep- commands for Claude chat. The personal context layer for your AI.",
-    "version": "0.18.2"
+    "version": "0.18.4"
   },
   "plugins": [
     {
       "name": "keeploop",
       "source": "./plugins/keeploop",
       "description": "The personal context layer for your AI. Adds the /keep- commands to Claude; the mail tools come from the Keeploop app on your Mac, through its Claude extension or Keeploop Remote.",
-      "version": "0.18.2",
+      "version": "0.18.4",
       "author": {
         "name": "Keeploop"
       },
       "homepage": "https://keeploop.app",
-      "repository": "https://github.com/keeploopapp/claude-commands",
+      "repository": "https://github.com/keeploopapp/keeploop",
       "license": "Proprietary",
       "category": "productivity",
       "keywords": [
