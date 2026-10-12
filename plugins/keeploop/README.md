@@ -2,13 +2,15 @@
 
 [Keeploop](https://keeploop.app) is the personal context layer for your AI: a Mac menu bar app
 that lets the AI apps you already use read your Mail, Messages, Calendar, Notes and Slack, right
-on your Mac. Everything stays on your Mac, and you decide what each AI can see and do.
+on your Mac. Your data stays on your Mac, and you decide what each AI can see and do.
 
 This repository is the plugin marketplace for the Keeploop commands in Claude chat: the Claude
 app, claude.ai and the Claude phone app. The plugin holds only the `/keep-` commands, as plain
 Markdown. It has no server, no hooks and no code. The mail tools come from the Keeploop app
 itself, through its Claude extension on your Mac or the Keeploop Remote connector on the web
-and your phone.
+and your phone. The extension on your Mac has no Keeploop server in the path. With the Remote
+connector, your data stays on your Mac: Keeploop's connection service passes requests to your Mac
+and results back, and never stores them.
 
 | Command | What it does |
 |---|---|
@@ -18,6 +20,8 @@ and your phone.
 | `/keep-draft` | Draft a threaded reply that sounds like you. Saves a draft only |
 | `/keep-find` | Find a file someone sent you by describing it |
 | `/keep-waiting` | Mail you sent that nobody has answered yet, oldest first |
+| `/keep-today` | Today's schedule, replies you owe and monitor hits |
+| `/keep-free` | Open slots on your calendar, for example `30m this week` |
 | `/keep-help` | List the commands |
 
 ## Install
